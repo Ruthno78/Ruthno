@@ -1,0 +1,163 @@
+{
+  "name": "RHTN All-in-One Toolkit",
+  "version": "1.0",
+  "categories": {
+    "boot_recovery": {
+      "description": "Zouti pou kreye USB bootable, enstalasyon ak recovery.",
+      "tools": [
+        {"name":"Rufus","description":"Kreye USB bootable Windows/Linux."},
+        {"name":"Ventoy","description":"Mete plizyè ISO sou menm USB."},
+        {"name":"Windows Installation Media","description":"Zouti ofisyèl pou prepare medya enstalasyon Windows."},
+        {"name":"Ubuntu","description":"Linux desktop pou itilizasyon jeneral."},
+        {"name":"Fedora Workstation","description":"Linux desktop pou devlopman ak itilizasyon chak jou."},
+        {"name":"Linux Mint","description":"Linux desktop fasil pou nouvo itilizatè."}
+      ]
+    },
+
+    "pc_repair": {
+      "description": "Diagnostic, maintenance ak recovery òdinatè.",
+      "tools": [
+        {"name":"System diagnostics","description":"Tès ak enfòmasyon sou CPU, RAM, disk ak sistèm."},
+        {"name":"Disk health tools","description":"Kontwole sante ak enfòmasyon disk."},
+        {"name":"Archive utilities","description":"Kreye ak ekstrè ZIP/7z/TAR."},
+        {"name":"Checksum tools","description":"Verifye SHA-256/MD5 fichye yo."}
+      ]
+    },
+
+    "android": {
+      "description": "Development, debugging ak recovery pou aparèy Android ou gen otorizasyon pou jere.",
+      "tools": [
+        {"name":"Android Platform Tools","description":"ADB ak Fastboot pou debugging ak administrasyon Android."},
+        {"name":"Android Studio","description":"IDE ofisyèl pou devlopman Android."},
+        {"name":"SDK Manager","description":"Jere Android SDK packages."}
+      ]
+    },
+
+    "network": {
+      "description": "Diagnostic ak administrasyon rezo.",
+      "tools": [
+        {"name":"Wireshark","description":"Analiz trafik rezo."},
+        {"name":"Nmap","description":"Network discovery ak audit sou sistèm ou gen otorizasyon teste."},
+        {"name":"cURL","description":"HTTP/HTTPS ak lòt transfè rezo."},
+        {"name":"iperf3","description":"Teste bandwidth ak pèfòmans rezo."}
+      ]
+    },
+
+    "cctv": {
+      "description": "Zouti pou enstalasyon ak administrasyon sistèm CCTV/IP kamera.",
+      "tools": [
+        {"name":"ONVIF utilities","description":"Dekouvri ak teste kamera IP ki sipòte ONVIF."},
+        {"name":"RTSP testing","description":"Teste stream kamera ou yo."},
+        {"name":"Network scanner","description":"Verifye aparèy ki sou rezo kamera a."},
+        {"name":"PoE/network checklist","description":"Dokimante koneksyon kamera, switch ak NVR."},
+        {"name":"Storage calculator","description":"Estime kapasite disk pou anrejistreman."}
+      ]
+    },
+
+    "graphics": {
+      "description": "Design grafik, illustration ak 3D.",
+      "tools": [
+        {"name":"GIMP","description":"Photo editing ak raster graphics."},
+        {"name":"Inkscape","description":"Vector graphics, logo ak SVG."},
+        {"name":"Krita","description":"Digital painting ak illustration."},
+        {"name":"Blender","description":"3D modeling, animation ak rendering."}
+      ]
+    },
+
+    "video_audio": {
+      "description": "Video, streaming ak audio production.",
+      "tools": [
+        {"name":"OBS Studio","description":"Recording ak livestreaming."},
+        {"name":"Kdenlive","description":"Video editing."},
+        {"name":"Audacity","description":"Audio recording ak editing."},
+        {"name":"FFmpeg","description":"Konvèsyon ak processing video/audio."}
+      ]
+    },
+
+    "business": {
+      "description": "Zouti pou òganize ak opere yon ti biznis.",
+      "tools": [
+        {"name":"LibreOffice","description":"Documents, spreadsheets, presentations ak database."},
+        {"name":"Invoice tools","description":"Kreye ak òganize fakti."},
+        {"name":"Inventory tools","description":"Jere pwodwi ak stock."},
+        {"name":"Barcode tools","description":"Kreye ak li barcode pou pwodwi."},
+        {"name":"PDF tools","description":"Li, òganize ak modifye dokiman PDF."}
+      ]
+    },
+
+    "retail": {
+      "description": "Zouti pou magazen ak POS.",
+      "tools": [
+        {"name":"POS software","description":"Point-of-sale pou lavant."},
+        {"name":"Inventory management","description":"Suiv stock ak pwodwi."},
+        {"name":"Receipt tools","description":"Prepare resi ak enprime."},
+        {"name":"Product database","description":"Òganize katalòg pwodwi."},
+        {"name":"Sales reports","description":"Analize lavant ak stock."}
+      ]
+    },
+
+    "marketing": {
+      "description": "Zouti pou marketing, kontni ak prezantasyon.",
+      "tools": [
+        {"name":"Graphic design","description":"Kreye flyers, posters ak social graphics."},
+        {"name":"Video creation","description":"Kreye kontni videyo."},
+        {"name":"QR tools","description":"Kreye QR codes pou business."},
+        {"name":"Presentation tools","description":"Prepare presentations."},
+        {"name":"Analytics tools","description":"Analize done marketing ak sit web."}
+      ]
+    },
+
+    "development": {
+      "description": "Programming ak software development.",
+      "tools": [
+        {"name":"Visual Studio Code","description":"Code editor."},
+        {"name":"Git","description":"Version control."},
+        {"name":"Python","description":"Programming language ak automation."},
+        {"name":"Node.js","description":"JavaScript runtime."},
+        {"name":"Docker","description":"Containers pou development ak deployment."}
+      ]
+    },
+
+    "database": {
+      "description": "Database development ak administration.",
+      "tools": [
+        {"name":"PostgreSQL","description":"Open-source relational database."},
+        {"name":"SQLite","description":"Lightweight embedded database."},
+        {"name":"MySQL","description":"Relational database system."},
+        {"name":"Database clients","description":"Zouti pou konekte ak jere databases."}
+      ]
+    },
+
+    "server": {
+      "description": "Server administration.",
+      "tools": [
+        {"name":"OpenSSH","description":"Remote administration via SSH."},
+        {"name":"Docker","description":"Container management."},
+        {"name":"Web server tools","description":"Administrasyon HTTP servers."},
+        {"name":"Backup tools","description":"Backup ak restore server data."},
+        {"name":"Monitoring tools","description":"Kontwole resources ak services."}
+      ]
+    },
+
+    "backup": {
+      "description": "Backup, synchronization ak file recovery.",
+      "tools": [
+        {"name":"Restic","description":"Encrypted backup tool."},
+        {"name":"Rclone","description":"File synchronization ak cloud storage."},
+        {"name":"7-Zip","description":"Archive ak compression."},
+        {"name":"Checksum utilities","description":"Verifye entegrite fichye."}
+      ]
+    },
+
+    "defensive_security": {
+      "description": "Security tools pou audit ak pwoteksyon sistèm ou gen otorizasyon pou administre.",
+      "tools": [
+        {"name":"Wireshark","description":"Network traffic analysis."},
+        {"name":"Nmap","description":"Network inventory ak authorized security auditing."},
+        {"name":"Hash utilities","description":"Verifye entegrite fichye."},
+        {"name":"Log analysis","description":"Analize logs pou jwenn pwoblèm."},
+        {"name":"Firewall administration","description":"Konfigirasyon firewall."}
+      ]
+    }
+  }
+}
